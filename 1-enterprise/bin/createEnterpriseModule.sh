@@ -2,16 +2,16 @@ mkdir 1-enterprise/$1
 
 cd 1-enterprise/$1
 
-yarn init
-
-#yarn config set name @ttm/$1
-#yarn config set main lib/index.js
-#yarn config set scripts --json '{"build": "tsc --watch"}'
+yarn init --yes
 
 yarn add --dev typescript
 yarn add --dev @types/node
+yarn add --dev jest
+yarn add --dev ts-jest
 
 tsc --init --rootDir src --outDir lib
+
+yarn ts-jest config:init
 
 mkdir src
 
