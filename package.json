@@ -5,5 +5,10 @@
   "main": "index.js",
   "author": "Elliott Lépine",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "create-enterprise-module": "bash 1-enterprise/bin/createEnterpriseModule.sh",
+
+    "build": "tsc"
+  }
 }
