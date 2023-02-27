@@ -1,0 +1,9 @@
+{
+  "name": "ttm-repo-template",
+  "version": "1.0.0",
+  "description": "The monorepo that will send your projets To The Moon",
+  "main": "index.js",
+  "author": "Elliott Lépine",
+  "license": "MIT",
+  "private": false
+}
