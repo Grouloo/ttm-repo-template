@@ -9,6 +9,8 @@
   "scripts": {
     "create-enterprise-module": "bash 1-enterprise/bin/createEnterpriseModule.sh",
 
+    "create-business-module": "bash 2-business/bin/createBusinessModule.sh",
+
     "build": "tsc"
   }
 }
