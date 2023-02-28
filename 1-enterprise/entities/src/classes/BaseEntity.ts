@@ -1,19 +1,21 @@
+import Deserializable from '../interfaces/Deserializable'
+
 export type BaseParams = {
-  id: string
-  created: Date
-  updated: Date
+   id: string
+   created: Date
+   updated: Date
 }
 
 export default class BaseEntity {
-  id: string
-  created: Date
-  updated: Date
+   id: string
+   created: Date
+   updated: Date
 
-  constructor({ id, created, updated }: BaseParams) {
-    this.id = id
+   constructor({ id, created, updated }: BaseParams) {
+      this.id = id
 
-    this.created = created
+      this.created = created
 
-    this.updated = updated
-  }
+      this.updated = updated
+   }
 }

@@ -3,7 +3,7 @@ import { BaseManipulator } from '../base/BaseManipulator'
 import { baseEntity, baseEntityParams } from './fixtures/fBaseEntity'
 
 describe('toJSON method tests', () => {
-   test('baseObjectshouldBeTransformedToJSON', () => {
+   test('baseObject should Be Transformed To JSON', () => {
       const stringifiedCreateDate = baseEntityParams.created.toISOString()
       const stringifiedUpdateDate = baseEntityParams.updated.toISOString()
 
